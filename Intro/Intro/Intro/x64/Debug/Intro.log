@@ -1,0 +1,5 @@
+﻿  Test.cpp
+C:\Users\aboutarin\source\repos\Intro\Intro\Test.cpp(17,12): warning C4305: '=' : troncation de 'double' à 'float'
+C:\Users\aboutarin\source\repos\Intro\Intro\Test.cpp(18,12): warning C4305: '=' : troncation de 'double' à 'float'
+C:\Users\aboutarin\source\repos\Intro\Intro\Test.cpp(19,12): warning C4305: '=' : troncation de 'double' à 'float'
+  Intro.vcxproj -> C:\Users\aboutarin\source\repos\Intro\Intro\x64\Debug\Intro.exe
