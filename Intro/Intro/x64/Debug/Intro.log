@@ -1,3 +1,2 @@
-﻿  Exo.cpp
-C:\Users\aboutarin\source\repos\Intro\Intro\Exo.cpp(23,14): warning C4305: 'argument' : troncation de 'double' à 'float'
-  Intro.vcxproj -> C:\Users\aboutarin\source\repos\Intro\x64\Debug\Intro.exe
+﻿  Vector2.cpp
+  Intro.vcxproj -> C:\Users\aboutarin\Documents\GitHub\Encapsulation-CPP\Intro\x64\Debug\Intro.exe

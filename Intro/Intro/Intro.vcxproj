@@ -130,10 +130,12 @@
     <ClCompile Include="Exo.cpp" />
     <ClCompile Include="Intro.cpp" />
     <ClCompile Include="Test.cpp" />
+    <ClCompile Include="Vector2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Exo.h" />
     <ClInclude Include="func.h" />
+    <ClInclude Include="Vector2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

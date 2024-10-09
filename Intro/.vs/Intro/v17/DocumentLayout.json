@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\aboutarin\\source\\repos\\Intro\\",
+  "WorkspaceRootPath": "C:\\Users\\aboutarin\\Documents\\GitHub\\Encapsulation-CPP\\Intro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD938B25-BA4A-4923-B282-4F79D5C71640}|Intro\\Intro.vcxproj|C:\\Users\\aboutarin\\source\\repos\\Intro\\Intro\\Exo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CD938B25-BA4A-4923-B282-4F79D5C71640}|Intro\\Intro.vcxproj|solutionrelative:Intro\\Exo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CD938B25-BA4A-4923-B282-4F79D5C71640}|Intro\\Intro.vcxproj|C:\\Users\\aboutarin\\Documents\\GitHub\\Encapsulation-CPP\\Intro\\Intro\\Vector2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD938B25-BA4A-4923-B282-4F79D5C71640}|Intro\\Intro.vcxproj|solutionrelative:Intro\\Vector2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD938B25-BA4A-4923-B282-4F79D5C71640}|Intro\\Intro.vcxproj|C:\\Users\\aboutarin\\source\\repos\\Intro\\Intro\\Exo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CD938B25-BA4A-4923-B282-4F79D5C71640}|Intro\\Intro.vcxproj|solutionrelative:Intro\\Exo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CD938B25-BA4A-4923-B282-4F79D5C71640}|Intro\\Intro.vcxproj|C:\\Users\\aboutarin\\Documents\\GitHub\\Encapsulation-CPP\\Intro\\Intro\\Vector2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD938B25-BA4A-4923-B282-4F79D5C71640}|Intro\\Intro.vcxproj|solutionrelative:Intro\\Vector2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Exo.cpp",
-              "DocumentMoniker": "C:\\Users\\aboutarin\\source\\repos\\Intro\\Intro\\Exo.cpp",
-              "RelativeDocumentMoniker": "Intro\\Exo.cpp",
-              "ToolTip": "C:\\Users\\aboutarin\\source\\repos\\Intro\\Intro\\Exo.cpp",
-              "RelativeToolTip": "Intro\\Exo.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAWAAAAAAAAAA==",
+              "Title": "Vector2.cpp",
+              "DocumentMoniker": "C:\\Users\\aboutarin\\Documents\\GitHub\\Encapsulation-CPP\\Intro\\Intro\\Vector2.cpp",
+              "RelativeDocumentMoniker": "Intro\\Vector2.cpp",
+              "ToolTip": "C:\\Users\\aboutarin\\Documents\\GitHub\\Encapsulation-CPP\\Intro\\Intro\\Vector2.cpp",
+              "RelativeToolTip": "Intro\\Vector2.cpp",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAwwGMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-08T11:59:39.942Z",
+              "WhenOpened": "2024-10-09T07:45:14.853Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Exo.h",
-              "DocumentMoniker": "C:\\Users\\aboutarin\\source\\repos\\Intro\\Intro\\Exo.h",
-              "RelativeDocumentMoniker": "Intro\\Exo.h",
-              "ToolTip": "C:\\Users\\aboutarin\\source\\repos\\Intro\\Intro\\Exo.h",
-              "RelativeToolTip": "Intro\\Exo.h",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAADoAAAAXAAAAAAAAAA==",
+              "Title": "Vector2.h",
+              "DocumentMoniker": "C:\\Users\\aboutarin\\Documents\\GitHub\\Encapsulation-CPP\\Intro\\Intro\\Vector2.h",
+              "RelativeDocumentMoniker": "Intro\\Vector2.h",
+              "ToolTip": "C:\\Users\\aboutarin\\Documents\\GitHub\\Encapsulation-CPP\\Intro\\Intro\\Vector2.h",
+              "RelativeToolTip": "Intro\\Vector2.h",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-08T11:58:20.631Z",
+              "WhenOpened": "2024-10-09T07:45:20.692Z",
               "EditorCaption": ""
             }
           ]

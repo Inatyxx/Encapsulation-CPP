@@ -1,17 +1,22 @@
 #pragma once
 #include <string>
 
-class Vector2
+/*class Vector2
 {
 public:
+
+	Vector2(float _x, float _y);
+
 	float x;
 	float y;
 
+	float GetX() const;
+	float GetY() const;
+
 	void Set(float x,float y);
+	void Set(std::string _str);
 
-	float GetX();
-
-	float GetY();
+	Vector2 operator+(const Vector2& _right);
 };
 
 
@@ -64,4 +69,6 @@ public:
 	virtual void GetLife(float _life);
 
 	virtual void TakeDammage(float _dammage);
-};
+
+	virtual bool CheckAlive(float _life);
+};*/
