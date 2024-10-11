@@ -1,4 +1,4 @@
-/*#include "Exo.h"
+#include "Exo.h"
 #include <iostream>
 #include <sstream>
 #include <string>
@@ -7,25 +7,18 @@ Vector2::Vector2(float _x, float _y) : x(_x), y(_y) {
 
 }
 
-float Vector2::GetX() const {
+
+float Vector2::GetX() {
 	return x;
 }
 
-float Vector2::GetY() const {
+float Vector2::GetY() {
 	return y;
 }
 
 void Vector2::Set(float _x, float _y) {
 	x = _x;
 	y = _y;
-}
-
-void Vector2::Set(std::string _str) {
-	x = std::stof(_str);
-}
-
-Vector2 Vector2::operator+(const Vector2& other_vector) {
-	return Vector2(x + other_vector.x, y + other_vector.y);
 }
 
 Vector2 Entity::GetPosition() {
@@ -68,8 +61,9 @@ bool Alive::CheckAlive(float _life) {
 
 }
 
+
 int main() {
 	
 
 	return 0;
-}*/
+}

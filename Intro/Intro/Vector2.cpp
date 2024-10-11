@@ -1,6 +1,6 @@
 #include "Vector2.h"
 #include <cmath>
-
+/*
 Vector2::Vector2() : x(0.f), y(0.f) {
 
 }
@@ -82,12 +82,6 @@ Vector2 Vector2::operator/=(const Vector2& _toDivide) {
     return *this;
 }
 
-Vector2 Vector2::operator%(const Vector2& _toModulo) {
-    Vector2 tmp(this->std::round(x) % std::round(_toModulo.GetX()), this->std::round(y) % std::round(_toModulo.GetY()));
-
-    return tmp;
-}
-
 Vector2 Vector2::operator%=(const Vector2& _toModulo) {
     this->x = static_cast<int>(std::round(this->x)) % static_cast<int>(std::round(_toModulo.GetX()));
     this->y = static_cast<int>(std::round(this->y)) % static_cast<int>(std::round(_toModulo.GetY()));
@@ -99,4 +93,5 @@ int main() {
     return 0;
 }
 
+*/
 
