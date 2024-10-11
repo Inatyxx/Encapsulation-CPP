@@ -5,9 +5,10 @@ class Vector2
 {
 public:
 
-
 	float x;
 	float y;
+
+	Vector2(float, float);
 
 	float GetX();
 	float GetY();
@@ -22,13 +23,11 @@ public:
 
 	Vector2 position;
 
-	Entity(float x, float y) {
-		position.Set(x, y);
-	
-	}
+	Entity(Vector2);
+
 	Vector2 GetPosition();
 
-	virtual void SetPosition(Vector2 _position);
+	virtual void SetPosition(Vector2 _position) = 0;
 };
 
 class AMovable 
@@ -37,16 +36,13 @@ public :
 	Vector2 direction;
 	float vitesse;
 
-	AMovable(float _vitesse, float x, float y) {
-		vitesse = _vitesse;
-		direction.Set(x, y);
-	}
+	AMovable(Vector2, float);
 
 	virtual void SetDirection(Vector2 _direction);
 
 	virtual void SetSpeed(float _vitesse);
 
-	virtual void Move() = 0;
+	virtual Vector2 Move() = 0;
 };
 
 class Alive
@@ -55,20 +51,21 @@ public:
 	float max_life;
 	float life;
 
-	Alive(float _life, float _max_life) {
-		life = _life;
-		max_life = _max_life;
-	}
-	
-	virtual void GetMaxLife(float _max_life);
+	Alive(float, float);
 
-	virtual void GetLife(float _life);
+	virtual float GetMaxLife();
 
-	virtual void TakeDammage(float _dammage);
+	virtual float GetLife();
 
-	virtual bool CheckAlive(float _life);
+	virtual void TakeDammage(float dammage);
+
 };
 
 class IaAttacker {
+public : 
+	virtual void Attack(Alive* target, float dammage) = 0;
+};
 
+class StaticObject : public Entity {
+	void Entity::SetPosition(Vector2);
 };
