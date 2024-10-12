@@ -70,19 +70,51 @@ float Alive::GetLife() {
 
 void Alive::TakeDammage(float dammage) {
 	life -= dammage;
+	if (life < 0) life = 0;
 }
 
-void Attack(Alive* target, float dammage) {
-	target->life -= dammage;
+void Attack(Alive* target, float damage) {
+	target->TakeDammage(damage);
 }
 
-void StaticObject::Entity::SetPosition(Vector2 _position) {
+StaticObject::StaticObject(Vector2 _position) : Entity(_position) {
+	std::cout << "Static Object just created at x = " << position.x << ", y = " << position.y << std::endl;
+}
+
+void StaticObject::SetPosition(Vector2 _position) {
 	position = _position;
 }
 
-int main() {
-	
-	std::cout << "Static Object just created at x, y = " << StaticObject::Entity::position << std::endl;
+BreakableObject::BreakableObject(Vector2 _position, float _life, float _max_life)
+	: Entity(_position), Alive(_life, _max_life) {
+	std::cout << "Breakable Object just created at x = " << position.x
+		<< ", y = " << position.y
+		<< " with " << max_life << " life" << std::endl;
+}
 
+void BreakableObject::SetPosition(Vector2 _position) {
+	position = _position;
+}
+
+void BreakableObject::TakeDammage(float damage) {
+	Alive::TakeDammage(damage);
+	if (life <= 0) {
+		std::cout << "Breakable Object just broke" << std::endl;
+	}
+}
+
+void BreakableObject::SetMaxLife(float _life, float _max_life) {
+	max_life = _max_life;
+	life = _life;
+}
+
+int main() {
+
+	Vector2 initialPosition(5, 10);
+	StaticObject obj(initialPosition);
+
+	BreakableObject breakableObj(Vector2(15, 20), 50, 100); 
+	breakableObj.TakeDammage(30);
+	breakableObj.TakeDammage(70); 
 	return 0;
 }

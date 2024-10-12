@@ -57,7 +57,7 @@ public:
 
 	virtual float GetLife();
 
-	virtual void TakeDammage(float dammage);
+public : virtual void TakeDammage(float dammage);
 
 };
 
@@ -66,6 +66,25 @@ public :
 	virtual void Attack(Alive* target, float dammage) = 0;
 };
 
-class StaticObject : public Entity {
-	void Entity::SetPosition(Vector2);
+class StaticObject : public Entity
+{
+public:
+	
+	StaticObject(Vector2);
+
+	void SetPosition(Vector2 _position);
+};
+
+class BreakableObject : public Entity, public Alive {
+
+public : 
+
+	BreakableObject(Vector2, float, float);
+
+	void SetPosition(Vector2 _position);
+
+	void SetMaxLife(float _life, float _max_life);
+
+	void TakeDammage(float damage) override;
+
 };
